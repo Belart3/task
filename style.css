@@ -1,0 +1,124 @@
+body{
+    background-image: url(bg-pattern-top-desktop.svg);
+    margin: auto 0;
+}
+#container{
+    margin: 50px;
+}
+#one,#two,.ctnd{
+    color: hsl(300, 43%, 22%);
+}
+#one{
+    font-size: 40px;
+    font-weight: 900;
+    width: 20vw;
+    line-height: 40px;
+    font-family: cursive;
+}
+#two{
+    font-weight: 600;
+    width: 28vw;
+    font-family: monospace;
+}
+#three{
+    font-weight: 600;
+    width: 28vw;
+    color: hsl(303, 10%, 53%);
+}
+p{
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+ 
+img{
+    height: 12px;
+}
+.ctn1,.ctn11, .ctn12{
+   background-color: hsl(300, 24%, 96%);
+   margin-bottom: 15px;
+   padding: 10px;
+   width: 20vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 10px;
+   font-size: 12px;
+   font-weight: 600;
+   border-radius: 8px;
+}
+.ctn1{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.ctn11{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.ctn12{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.ctn{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+}
+.ctn2 , .ctn22 , .ctn23{
+    background-color:  hsl(300, 43%, 22%);
+    width: 25vw;
+    border-radius: 8px;
+    padding: 15px;
+}
+.ctn2{
+    margin-bottom: 20px;
+}
+.ctn22{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.ctn23{
+    margin-top: 40px;
+}
+.txt{
+   color:  hsl(300, 24%, 96%);
+   font-size: 12px;
+   font-family: monospace;
+   font-weight: 700;
+   margin: 0px;
+}
+.txt1{
+    color: hsl(333, 80%, 67%);
+    margin: 0px;
+}
+.img{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customers{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
